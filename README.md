@@ -5,8 +5,14 @@ This repository is deprecated, please now refer to : https://github.com/facebook
 Pytorch original implementation of TransCoder in [Unsupervised Translation of Programming Languages](https://arxiv.org/pdf/2006.03511.pdf)
 ![Model](https://dl.fbaipublicfiles.com/transcoder/TransCoder_Schema.jpg)
 
+## OS Dependencies
+- apt install --reinstall build-essential
+- apt install gcc python3-dev 
+
 ## Dependencies
-- Python 3
+- setuptools
+- cython
+- wheel
 - [NumPy](http://www.numpy.org/)
 - [PyTorch](http://pytorch.org/)
 - [fastBPE](https://github.com/fairinternal/TransCoder_release/tree/master/XLM/tools#fastbpe) (generate and apply BPE codes)

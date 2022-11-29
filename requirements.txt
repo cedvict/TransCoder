@@ -1,0 +1,13 @@
+setuptools
+cython
+wheel
+numpy
+torch
+torchvision
+fastbpe
+moses
+apex
+libclang
+submitit
+six
+sacrebleu==1.2.11
