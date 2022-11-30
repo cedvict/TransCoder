@@ -11,3 +11,4 @@ libclang
 submitit
 six
 sacrebleu==1.2.11
+clang

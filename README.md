@@ -7,7 +7,7 @@ Pytorch original implementation of TransCoder in [Unsupervised Translation of Pr
 
 ## OS Dependencies
 - apt install --reinstall build-essential
-- apt install gcc python3-dev 
+- apt install gcc python3-dev clang python3-venv
 
 ## Dependencies
 - setuptools
@@ -23,7 +23,7 @@ Pytorch original implementation of TransCoder in [Unsupervised Translation of Pr
 - [six](https://pypi.org/project/six/) 
 - [sacrebleu](https://pypi.org/project/sacrebleu/) (`pip install sacrebleu=="1.2.11"`)
  
-If your `libclang.so` is not in `/usr/lib/llvm-7/lib/`, replace the path to `libclang.so` to the correct path in `clang.cindex.Config.set_library_path('path_to_libclang')` in `code_tokenizer.py` 
+If your `libclang.so` is not in `/usr/lib/llvm-14/lib/`, replace the path to `libclang.so` to the correct path in `clang.cindex.Config.set_library_path('path_to_libclang')` in `code_tokenizer.py` 
 
 If you run the data preprocessing pipeline, you will have to compile fastBPE. Go in XLM/tools/fastBPE and carry out the steps described in the [ReadMe](https://github.com/facebookresearch/TransCoder/blob/master/XLM/tools/README.md).
 
