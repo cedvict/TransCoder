@@ -7,7 +7,7 @@ Pytorch original implementation of TransCoder in [Unsupervised Translation of Pr
 
 ## OS Dependencies
 - apt install --reinstall build-essential
-- apt install gcc python3-dev clang python3-venv
+- apt install clang gcc python3-dev python3-clang python3-venv
 
 ## Dependencies
 - setuptools
